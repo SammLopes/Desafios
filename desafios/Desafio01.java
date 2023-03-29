@@ -1,11 +1,4 @@
-/**
- * @author Samuel Lopes
- * */
-/*
- * Escrever um programa que calcule
- *  o fatorial de n iterativamente, para n>0.
- * */
-package com.desafios;
+package desafios;
 import java.util.Scanner;
 public class Desafio01 {
 

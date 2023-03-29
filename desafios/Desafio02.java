@@ -1,4 +1,4 @@
-package com.desafios;
+package desafios;
 /*
  * Faça um programa para identificar se um número é primo.
  * @Author Samuel Lopes
