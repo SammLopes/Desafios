@@ -17,6 +17,12 @@ public class Desafio06 {
 			vet[i] = sc.nextInt();
 		}
 		
+		/*
+		 * 
+		 * Esse algortimo realiza a comparação de cda numero se i  for menor que j,
+		 * é feita a troca dele usando uma variavel auxiliar temp, usamos dois for para comparar um numero com todos dentro do vetor
+		 *
+		 * */
 		for(int i = 1; i < vet.length;i++) {
 			for(int j = 0; j  < i;j++) {
 				if(vet[i] < vet[j]) {
@@ -26,8 +32,7 @@ public class Desafio06 {
 				}
 			}
 		}	
-			
-			
+		
 		for(int i : vet) {
 			System.out.println(i+" , ");
 		}
