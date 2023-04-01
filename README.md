@@ -8,3 +8,4 @@ Desafios de lógica de programação
 5 - Dado um vetor qualquer sem valores repetidos, descubra qual é o índice do maior valor e o índice do menor valor. Exemplo no vetor {6, 10, 4 , 21, 9} = {3 e 2}.
 6 - Escreva um programa que organize um vetor de inteiros em ordem crescente.
 7 - Escreva um programa que receba um vetor de inteiros e calcule a média da valores.
+8 - Escreva um programa que receba um vetor de inteiros e calcule o valor do desvio padrão dos valores.
