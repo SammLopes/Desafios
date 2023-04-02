@@ -9,3 +9,4 @@ Desafios de lógica de programação
 6 - Escreva um programa que organize um vetor de inteiros em ordem crescente.
 7 - Escreva um programa que receba um vetor de inteiros e calcule a média da valores.
 8 - Escreva um programa que receba um vetor de inteiros e calcule o valor do desvio padrão dos valores.
+9 - Escreva um programa que converta um número binário (base 2) em decimal (base 10). Seu programa deve ler o número binário do usuário como uma sequência de zeros e uns e exibir o número decimal equivalente, processando cada dígito da representação binária. Por exemplo, 1010011 (base 2) ≡ 83 (base 10).
