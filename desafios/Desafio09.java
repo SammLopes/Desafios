@@ -1,6 +1,6 @@
 package desafios;
 /*
- * Escreva um programa que converta um número binário (base 2) em decimal (base 10). 
+ * Escreva um programa que converta um número binário (base 2) em decimal (base 10).
  * Seu programa deve ler o número binário do usuário como uma 
  * sequência de zeros e uns e exibir o número decimal equivalente, processando 
  * cada dígito da representação binária. Por exemplo, 1010011 (base 2) ≡ 83 (base 10).
@@ -18,6 +18,18 @@ public class Desafio09 {
 		
 		int expoente = binario.length() - 1;
 		
+		/*
+		 * Explicação da Logica do Desafio:
+		 * 
+		 * decimal += Integer.parseInt(String.valueOf(binario.charAt(i))) * Math.pow(2, expoente); 
+		 * adiciona ao valor atual de decimal o resultado da multiplicação entre                   
+		 * o dígito atual do número binário (convertido para um número 
+		 * inteiro usando Integer.parseInt()) e 2 elevado 
+		 * ao expoente correspondente. O expoente é calculado 
+		 * como o comprimento do número binário - 1 na primeira iteração e é decrementado a 
+		 * cada iteração subsequente.
+		 * expoente--; decrementa o valor de expoente em 1 para a próxima iteração do loop.
+		 * */
 		for(int i = 0; i < binario.length(); i++) {
 			decimal += Integer.parseInt(String.valueOf(binario.charAt(i))) * (Math.pow(2,expoente));
 			expoente--;
