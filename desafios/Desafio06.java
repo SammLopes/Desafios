@@ -24,7 +24,7 @@ public class Desafio06 {
 		 *
 		 * */
 		for(int i = 1; i < vet.length;i++) {
-			for(int j = 0; j  < i;j++) {
+			for(int j = 0; j < i;j++) {
 				if(vet[i] < vet[j]) {
 				   int temp = vet[j];
 				   vet[j] = vet[i];
