@@ -11,3 +11,4 @@ Desafios de lógica de programação
 8 - Escreva um programa que receba um vetor de inteiros e calcule o valor do desvio padrão dos valores.
 9 - Escreva um programa que converta um número binário (base 2) em decimal (base 10). Seu programa deve ler o número binário do usuário como uma sequência de zeros e uns e exibir o número decimal equivalente, processando cada dígito da representação binária. Por exemplo, 1010011 (base 2) ≡ 83 (base 10).
 10 - Escreva um programa que receba um vetor de inteiros e retorno a moda. Onde houver empate retorno o maior. Se não tiver retorne 0.
+11 - Escreva um programa que receba um vetor de inteiros e retorno a moda. Caso o vetor tenha mais de uma moda retorno todos os valores. Se não tiver moda retorne 0.
