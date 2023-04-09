@@ -47,5 +47,15 @@ Escreva um programa que leia um ano do usuário e exiba uma mensagem dizendo se 
 Desenvolva um programa que, dado dois vetores de dimensão n, retorne o produto escalar entre eles.
 
 16 - O triângulo de Pascal é uma tabela de números construída assim: o elemento da linha i e coluna j (com 0≤j≤i e começando de cima, onde i=j=0) 
+
+
 ![image](https://user-images.githubusercontent.com/117191255/230794038-f3dbf14d-b946-4393-9271-f820767b8520.png)
+
+
+As primeiras oito linhas (ou seja, até i=7) são mostradas abaixo:
+
+
+![image](https://user-images.githubusercontent.com/117191255/230794317-28a6b57e-5548-4da4-bbfd-ae07b90950e2.png)
+
+
 Implemente um algoritmo para calcular as primeiras n linhas do triângulo de Pascal.
