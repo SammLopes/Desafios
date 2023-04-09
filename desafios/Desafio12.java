@@ -32,6 +32,7 @@ public class Desafio12 {
 		if(num1 == 0) {
 			return num2;
 		}
+		//Logica seguida pelo exercicio
 		int menor = Math.min(num1, num2);
 		int d = menor;
 		int mdc = 1;
