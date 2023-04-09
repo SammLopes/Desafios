@@ -5,12 +5,11 @@ package desafios;
  * Por exemplo, 123554 segundos equivalem a 1 dia, 10 horas, 19 
  * minutos e 14 segundos.
  * */
-import java.util.Scanner;
+
 public class Desafio13 {
 
 	public static void main(String[] args) {
 		int duracaoSegundos = (int) Math.floor(Math.random()*999999999);
-		
 		
 		int dias = duracaoSegundos / (24 * 3600);
 		int restoDias = duracaoSegundos % (24 * 3600);  
