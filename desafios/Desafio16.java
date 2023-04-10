@@ -65,8 +65,10 @@ public class Desafio16 {
 		for(int i = 0; i < linhas; i++) {
 			for(int j = 0; j <= i; j++) {
 				System.out.printf("%-"+Math.abs(espacos)+"d",trianguloPascal[i][j]);
+				// Aqui é estabelecido o espaço entre as colunas e colocado o valor dentro da linha e coluna
+				// formando a linha.
 			}
-			System.out.println();
+			System.out.println();// Nesta parte o println pula para proxima linha
 		}
 		
 	}
